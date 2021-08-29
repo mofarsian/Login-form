@@ -6,7 +6,7 @@ body, html {
 * {
     box-sizing: border-box;
 }
-h1 {
+h1,a {
     color: rgb(78, 69, 28);
 }
 .container {
