@@ -10,7 +10,10 @@ const session = require('express-session');
 const methodOverride = require('method-override');
 
 const initilaizePassport = require('./passport-config');
-const { checkAuthenticated, checkNotAuthenticated } = require('./functions');
+const {
+  checkAuthenticated,
+  checkNotAuthenticated,
+} = require('./middleware/auth');
 
 const users = [];
 
